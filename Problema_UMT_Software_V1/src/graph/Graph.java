@@ -24,10 +24,11 @@ public class Graph {
     //-----------------------------------------------------------------------------------------------
     //-----------------------------------------------------------------------------------------------
 
-
-    // verific pe axa X sa fie doar 2 puncte egale
-    // verific pe axa Y sa fie doar 2 puncte egale
-    // daca si pe axa X si pe axa Y sunt cate 2 puncte egale => e dreptunghi
+    /*
+        verific pe axa X sa fie doar 2 puncte egale
+        verific pe axa Y sa fie doar 2 puncte egale
+        daca si pe axa X si pe axa Y sunt cate 2 puncte egale => e dreptunghi
+    */
     public boolean checkIfLinesAreOk(Point pointA, Point pointB, Point pointC, Point pointD){
         int countSameLineX = 0, countSameLineY = 0;;
         // verific toate combinatiile in care coordonata X a unui punct este egala cu coordonata X a altui punct
@@ -61,8 +62,10 @@ public class Graph {
         return (countSameLineX == 2 && countSameLineY == 2);
     }
 
-    // numar dreptunghiurile din toate combinatiile posibile (fara repetarea punctelor)
-    // returnez numarul de dreptunghiuri gasite
+    /*
+        numar dreptunghiurile din toate combinatiile posibile (fara repetarea punctelor)
+        returnez numarul de dreptunghiuri gasite
+    */
     public int countRectangles(Set<Point> pointList){
         // daca avem mai putin de 4 puncte => nu putem forma dreptunghi
         if(pointList.size() <= 3){

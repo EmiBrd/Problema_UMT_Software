@@ -9,7 +9,7 @@ Prima varianta, "Problema_UMT_Software_V1" este mai eficienta (atat din punct de
 al complexitatii in timp cat si din punct de vedere al cantitatii codului scris) 
 decat a doua varianta, "FindNumberOfRectangles_V2".
 Cu toate acestea, am presupus ca e in regula sa rezolv problema in doua moduri, doar
-pentru a proba si o alta abordare si a face comparatii de timp 
+pentru a proba si o alta abordare si pentru a face comparatii de timp. 
 
 Am presupus ca lucram cu coordonate intregi (ca cele din PDF).
 Am presupus ca nu se accepta romburi (asa reiese si din cele doua exemple de input-uri 
