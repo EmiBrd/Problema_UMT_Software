@@ -1,0 +1,25 @@
+
+Am comentat codul in interiorul claselor. Din acest motiv, nu consider ca este necesar 
+sa fac vreo descriere aditionala a codului in acest fisier.
+
+Am rezolvat problema in doua moduri pentru a compara timpii de rulare.
+Fiecare varianta are o aplicatie facuta separat.
+
+Prima varianta, "Problema_UMT_Software_V1" este mai eficienta (atat din punct de vedere 
+al complexitatii in timp cat si din punct de vedere al cantitatii codului scris) 
+decat a doua varianta, "FindNumberOfRectangles_V2".
+Cu toate acestea, am presupus ca e in regula sa rezolv problema in doua moduri, doar
+pentru a proba si o alta abordare si a face comparatii de timp 
+
+Am presupus ca lucram cu coordonate intregi (ca cele din PDF).
+Am presupus ca nu se accepta romburi (asa reiese si din cele doua exemple de input-uri 
+din PDF).
+Am presupus ca nu e nevoie sa fac un GUI care sa arate punctele pe grafic.
+ 
+
+
+
+
+
+
+
